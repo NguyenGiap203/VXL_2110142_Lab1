@@ -581,3 +581,71 @@
 2024-11-01 21:16:40,548 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3281mS.
 2024-11-01 21:16:40,549 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
 2024-11-01 21:16:40,551 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-11-01 22:49:30,816 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 928028752 Bytes (1073741824)
+2024-11-01 22:49:30,867 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 943695264 Bytes (1073741824)
+2024-11-01 22:49:31,274 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 918361816 Bytes (1073741824)
+2024-11-01 22:49:31,598 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-11-01 22:49:31,598 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-11-01 22:49:31,599 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-11-01 22:49:31,599 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-11-01 22:49:31,599 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-11-01 22:49:31,988 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\license.tmp_save
+2024-11-01 22:49:32,058 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\license.tmp
+2024-11-01 22:49:32,086 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\gpio.tmp_save
+2024-11-01 22:49:32,164 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\gpio.tmp
+2024-11-01 22:49:32,205 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\stm32f1xx_it.c_save
+2024-11-01 22:49:32,350 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\stm32f1xx_it.c
+2024-11-01 22:49:32,369 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\stm32f1xx_it.h_save
+2024-11-01 22:49:32,430 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\stm32f1xx_it.h
+2024-11-01 22:49:32,456 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\stm32f1xx_hal_msp.c_save
+2024-11-01 22:49:32,550 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\stm32f1xx_hal_msp.c
+2024-11-01 22:49:32,558 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\system.tmp_save
+2024-11-01 22:49:32,612 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\system.tmp
+2024-11-01 22:49:32,632 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-11-01 22:49:32,700 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\stm32f1xx_hal_conf.h
+2024-11-01 22:49:32,736 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\main.h_save
+2024-11-01 22:49:32,800 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\main.h
+2024-11-01 22:49:32,816 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\main.c_save
+2024-11-01 22:49:32,907 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\main.c
+2024-11-01 22:49:34,159 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 57mS.
+2024-11-01 22:49:34,162 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-11-01 22:49:34,662 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-11-01 22:49:36,643 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2481mS.
+2024-11-01 22:49:36,644 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-11-01 22:49:36,647 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-11-01 23:28:55,948 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 896383048 Bytes (1073741824)
+2024-11-01 23:28:55,997 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 911280800 Bytes (1073741824)
+2024-11-01 23:28:56,458 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 946714696 Bytes (1073741824)
+2024-11-01 23:28:56,771 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-11-01 23:28:56,772 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-11-01 23:28:56,772 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-11-01 23:28:56,772 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-11-01 23:28:56,774 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-11-01 23:28:57,201 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\license.tmp_save
+2024-11-01 23:28:57,286 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\license.tmp
+2024-11-01 23:28:57,301 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\gpio.tmp_save
+2024-11-01 23:28:57,373 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\gpio.tmp
+2024-11-01 23:28:57,419 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\stm32f1xx_it.c_save
+2024-11-01 23:28:57,516 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\stm32f1xx_it.c
+2024-11-01 23:28:57,520 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\stm32f1xx_it.h_save
+2024-11-01 23:28:57,586 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\stm32f1xx_it.h
+2024-11-01 23:28:57,605 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\stm32f1xx_hal_msp.c_save
+2024-11-01 23:28:57,707 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\stm32f1xx_hal_msp.c
+2024-11-01 23:28:57,710 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\system.tmp_save
+2024-11-01 23:28:57,770 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\MXTmpFiles\system.tmp
+2024-11-01 23:28:57,787 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-11-01 23:28:57,855 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\stm32f1xx_hal_conf.h
+2024-11-01 23:28:57,882 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\main.h_save
+2024-11-01 23:28:57,953 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Inc\main.h
+2024-11-01 23:28:57,962 [INFO] CodeEngine:239 - oldGeneratedFile, E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\main.c_save
+2024-11-01 23:28:58,043 [INFO] CodeEngine:257 - Generated code: E:\BKU\Se241\CO3009_MM\Experiments\L06_2110142_Lab1\STM32_Lab1_1st\Led_Animations1\Core\Src\main.c
+2024-11-01 23:28:59,180 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 53mS.
+2024-11-01 23:28:59,185 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-11-01 23:28:59,634 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-11-01 23:29:01,508 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2323mS.
+2024-11-01 23:29:01,509 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2024-11-01 23:29:01,511 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2024-11-08 15:55:22,805 [INFO] Activator:177 - 
+
+
+2024-11-08 15:55:22,807 [INFO] Activator:178 - !SESSION log4j initialized
