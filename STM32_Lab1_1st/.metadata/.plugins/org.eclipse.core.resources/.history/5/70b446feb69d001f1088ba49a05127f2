@@ -89,8 +89,7 @@ void display7SEG(int counter){
 		HAL_GPIO_WritePin(GPIOB, SEG0_Pin | SEG1_Pin | SEG2_Pin | SEG3_Pin | SEG5_Pin |SEG6_Pin, RESET);
 		break;
 	default:
-		// Present a hyphen "-" if counter < 0 or counter > 9
-		HAL_GPIO_WritePin(GPIOB, SEG6_Pin, RESET);
+		HAL_GPIO_WritePin(GPIOB, SEG6_Pin, SET);
 		break;
 	}
 }
