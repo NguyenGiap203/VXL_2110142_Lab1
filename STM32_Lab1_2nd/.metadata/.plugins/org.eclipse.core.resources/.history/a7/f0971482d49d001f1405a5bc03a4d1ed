@@ -183,8 +183,8 @@ int main(void)
   while (1)
   {
 	if (num > 11) num = 0;
-	clearNumberOnClock(num - 1);
 	setNumberOnClock(num++);
+	clearNumberOnClock(num - 1);
     HAL_Delay(1000);
 	/* USER CODE END WHILE */
 
