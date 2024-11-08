@@ -140,7 +140,7 @@ int main(void)
   while (1)
   {
 	if (num > 11) num = 0;
-	setNumberOnClock(num++);
+	setNumberOnClock(num);
     HAL_Delay(1000);
 	/* USER CODE END WHILE */
 
