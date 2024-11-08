@@ -167,62 +167,19 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  // red_time = 5, yellow_time = 2, green_time = 3
-  int total = 10; 	// 10 = 5 + 2 + 3
-  // set led state
-  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin | LED_YELLOW_Pin | LED_GREEN_Pin, RESET);
-  HAL_GPIO_WritePin(GPIOB, LED_RED2_Pin | LED_YELLOW2_Pin | LED_GREEN2_Pin , RESET);
+  int _time = 9; 	// Den do truoc
+  int _time2 = 4; 	// Den xanh truoc
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  if (total <= 0) total = 10;
-	  // set 7SEG
-	  if (total > 7){
-		  // set the horizontal: RED on, YELLOW off
-		  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, SET);
-		  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, RESET);
+	  if(_time <= 0) _time = 9;
+	  display7SEG(_time);
 
-		  // set the vertical: GREEN on, RED off
-		  HAL_GPIO_WritePin(LED_GREEN2_GPIO_Port, LED_GREEN2_Pin, SET);
-		  HAL_GPIO_WritePin(LED_RED2_GPIO_Port, LED_RED2_Pin, RESET);
-
-		  // set 7SEG
-		  display7SEG2(total - 5);
-		  display7SEG(total - 7);
-	  } else if (total > 5){
-		  // set the vertical: YELLOW on, GREEN off
-		  HAL_GPIO_WritePin(LED_YELLOW2_GPIO_Port, LED_YELLOW2_Pin, SET);
-		  HAL_GPIO_WritePin(LED_GREEN2_GPIO_Port, LED_GREEN2_Pin, RESET);
-
-		  // set 7SEG
-		  display7SEG2(total - 5);
-		  display7SEG(total - 5);
-	  } else if (total > 2){
-		  // set the horizontal: GREEN on, RED offYELLOW on, GREEN off
-		  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, SET);
-		  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, RESET);
-
-		  // set the vertical: RED on, YELLOW off
-		  HAL_GPIO_WritePin(LED_RED2_GPIO_Port, LED_RED2_Pin, SET);
-		  HAL_GPIO_WritePin(LED_YELLOW2_GPIO_Port, LED_YELLOW2_Pin, RESET);
-
-		  // set 7SEG
-		  display7SEG2(total - 2);
-		  display7SEG(total);
-	  } else if (total > 0){
-		  // set the horizontal: YELLOW on, GREEN off
-		  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, SET);
-		  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, RESET);
-
-		  // set 7SEG
-		  display7SEG2(total);
-		  display7SEG(total);
-	  }
-
-	  total--;
+	  if(_time2 <= 0) _time2 = 9;
+	  display7SS+EG2(_time2);
 	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
