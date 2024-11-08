@@ -205,7 +205,7 @@ int main(void)
 	display_time_on_LEDs(_hour, _minute, _second);
 
 	_second++;
-    HAL_Delay(10);
+    HAL_Delay(1000);
 	/* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

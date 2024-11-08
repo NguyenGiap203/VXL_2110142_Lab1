@@ -144,12 +144,6 @@ void clearNumberOnClock(int num){
 	}
 }
 
-void display_time_on_LEDs(int _hour, int _minute, int _second){
-	clearAllClock();
-	setNumberOnClock(_hour);
-	setNumberOnClock(_minute / 5);
-	setNumberOnClock(_second / 5);
-}
 /* USER CODE END 0 */
 
 /**
@@ -181,31 +175,17 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  //set original state
-  int _hour = 0, _minute = 0, _second = 0;
+  int num = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	//set time
-	if (_second == 60){
-		_second = 0;
-		_minute++;
-	}
-	if (_minute == 60){
-		_minute = 0;
-		_hour++;
-	}
-	if (_hour == 12)
-		_hour = 0;
-
-	//set LEDs
-	display_time_on_LEDs(_hour, _minute, _second);
-
-	_second++;
-    HAL_Delay(10);
+	if (num > 11) num = 0;
+	clearNumberOnClock(num - 1);
+	setNumberOnClock(num++);
+    HAL_Delay(1000);
 	/* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
